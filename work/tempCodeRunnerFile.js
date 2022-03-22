@@ -1,0 +1,2 @@
+
+.then((res) => res.json())

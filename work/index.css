@@ -1,0 +1,161 @@
+*{margin: 0;padding:0;}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
+.header h1{
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    margin-right: 40%;
+}
+.header a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4%;
+    color: magenta;
+    font-size: 20px;
+    transition: all .4s;
+    padding:1% 2%;
+}
+.header a:hover{
+    background-color: gold;
+    border-radius: 30px;
+}
+
+.contact{
+    width: 100%;
+    height: 85vh;
+
+}
+.details{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    background: url("https://images.unsplash.com/photo-1558554970-1e3279cd745d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: 100% 100vh;
+}
+
+.card{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid fuchsia;
+    margin: 3% 1%;
+    border-radius: 7px;
+    background: url("https://media.istockphoto.com/photos/healthy-gluten-free-cauliflower-crust-pizza-with-tomatoes-mushrooms-picture-id1307275152?b=1&k=20&m=1307275152&s=170667a&w=0&h=rD3g4fBTXainqGndPwUaBqmIOH1myBjpO-NyfsoG9Ac=");
+}
+
+.card i{
+    color: orangered;
+}
+.card h3{
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card p{
+    padding: 5%;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: #ecf0f1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card2{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid fuchsia;
+    margin: 3% 1%;
+    border-radius: 7px;
+    background: url("https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: 100% 100%;
+}
+
+.card2 i{
+    color: orangered;
+}
+.card2 h3{
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card2 p{
+    padding: 5%;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: #ecf0f1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card3{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid fuchsia;
+    margin: 3% 1%;
+    border-radius: 7px;
+    background: url("https://images.unsplash.com/photo-1569420067112-b57b4f024595?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25hY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+.card3 i{
+    color: orangered;
+}
+.card3 h3{
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card3 p{
+    padding: 5%;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: #ecf0f1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .desp{
+     position: absolute;
+     width: 100%;
+     height: 25vh;
+     top: 75%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fff;
+ }
+ .desp h3{
+     font-size: 23px;
+     margin-right: 60%;
+     border-bottom: 2px solid mediumslateblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+.desp p{
+    padding: 1% 7%;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
